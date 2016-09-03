@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Project Description" />
+    <meta name="keywords" content="Project Keywords" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Contact</title>
+    <link href='http://fonts.googleapis.com/css?family=Cabin' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!--[if IE]><link rel="stylesheet" href="css/style-ie.css" type="text/css" /><![endif]-->
+     <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#slider-images').cycle({ 
+                fx:     'fade', 
+                speed:   500, 
+                timeout: 3000,
+                pager: '#slider-nav'
+            });               
+        });
+    </script>        
+</head>
+
+<body>
+
+    <div id="top" class="clearfix">
+        <div class="wrap clearfix">
+            <div id="sitelogo" class="left">
+                 <img src="images/star.ico">
+                <a href="index.html">Star Lesson Plans
+               </a>
+                
+            </div><!-- // end #sitelogo -->
+            <div id="topnav" class="right">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#">Lesson Plan Links</a>
+                        <ul>
+                           <!-- <li><a href="page-one-column.html">Vision</a></li>-->
+                            <li><a href="page-two-column.html">Lesson Plan Materials</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </div><!-- // end #topnav -->
+        </div><!-- // end .wrap -->
+    </div><!-- // end #top -->
+    
+    <div id="main">
+       
+            <img style="height: 15%; width: 20%; left-margin: 1000px" src="images/under-construction-green-yellow.gif"/>        
+            
+        <div class="content wrap clearfix">
+            <div class="column-a left">
+                <h1>Contact</h1>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem a.</p>
+                <div class="contact-form">
+                    <form method="post" action="#">
+                        <ul>
+                            <li><label>Name:</label> <input type="text" class="textinput"/></li>
+                            <li><label>Email:</label> <input type="text" class="textinput"/></li>
+                            <li><label>Phone:</label> <input type="text" class="textinput"/></li>
+                            <li><label>Message:</label> <textarea rows="5" cols="30"></textarea></li>
+                        </ul>
+                        <input type="submit" value="Submit" class="btn-submit"/>
+                    </form>
+                </div><!-- // end .contact-form -->
+            </div><!-- // end .column-a -->
+            
+            <div class="column-b right">
+               <h2>Notes</h2>
+                <p>This site is a prototype site under construction as one of my many class projects for course completion; Foundations + JavaScript at Interface Web School, Omaha, Nebraska.  </p>
+                <p>This site was also built to provide materials to Teach For America as an introductory entrance requirement.</p>
+            </div><!-- // end .column-b -->                
+        </div><!-- // end .wrap -->
+    </div><!-- // end #main -->
+           
+          
+     <div id="footer">
+        <div class="wrap content clearfix">
+            <div class="column-c left push-left">
+                <div class="widget">
+                    <h3></h3>
+                   <ul style="left-margin: 30px;">
+                        <li><a href="https://interfaceschool.com">Interface Web School</a></li>
+                        
+                        <li><a href="https://aprilgoettle.github.io/mbk/">My Brother's Keeper Project</a></li>
+                        
+                         <li><a href="https://www.teachforamerica.org/">Teach For America</a></li>
+                        
+                         <li><a href="https://www.wikipedia.org/">Wikipedia</a></li>
+                   
+                    </ul>
+                </div><!-- // end .widget -->
+            </div><!-- // end .column-c -->
+            <div class="column-c left push-left">
+                <div class="widget">
+                    
+                </div><!-- // end .widget -->
+            </div><!-- // end .column-c -->
+            <div class="column-c left push-left">
+                <div class="widget">
+                    <h3></h3>
+                    <ul style="left-margin: 50px;">
+                     
+                       <li><a href="http://www.freeusandworldmaps.com/html/US_States/USTerritories.html">Free US and Worldmaps.com</a></li>
+                        
+                        <li><a href="http://www.sheppardsoftware.com/">Sheppard Software</a></li>
+                        
+                        <li><a href="http://www.education.com">Education.com</a></li>
+                         
+                        <li><a href="http://www.dictionary.com/">Dictionary.com</a></li>
+
+                    </ul>
+                </div><!-- // end .widget -->
+            </div><!-- // end .column-c -->
+                 
+        </div><!-- // end .wrap -->
+      <!--   <div id="copyright">
+           <p class="text-center">Free Open Source HTML/CSS Template by <a href="http://www.myhedspace.com">Myhedspace</a> &amp; <a href="http://www.jelontok.com">Jose Erlino Lontok</a></p>
+        </div>-->
+    </div>
+
+</body>
+</html>
